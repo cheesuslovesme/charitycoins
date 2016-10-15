@@ -1,0 +1,34 @@
+#banner {
+  background-color: lightblue;
+  height: 210px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+#donate-button {
+  width: 180px;
+  height: 40px;
+  background-color: lightgreen;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+  display: table;
+  margin: 5px auto;
+}
+
+#button-text {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 150%;
+  margin: 5px 5px;
+}
+
+#counter {
+  color: red;
+  position: absolute;
+  bottom: 10px;
+  left: auto;
+}
+  	    
