@@ -4,6 +4,7 @@
   width: 300px;
   overflow: hidden;
   position: relative;
+  text-align: center;
 }
 
 #donate-button {
@@ -29,6 +30,10 @@
   color: red;
   position: absolute;
   bottom: 10px;
-  left: auto;
+  text-align: center;
 }
-  	    
+  	   
+.span {
+  width: 100%;
+  text-align: center;
+} 

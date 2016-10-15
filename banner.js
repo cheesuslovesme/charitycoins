@@ -14,12 +14,14 @@
     resetCounter()
     $('#donate_message').html("You have donated $ ");
     $('#counter').css('color','green');
+    $('#button-text').text('STOP');
   }
 
   function stopDonating () {
     resetCounter()
     $('#donate_message').html("You could have donated $ ");
     $('#counter').css('color','red');
+    $('#button-text').text('DONATE NOW');
   }
 
   var ammt_donated = 0.00;

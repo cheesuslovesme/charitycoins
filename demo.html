@@ -9,9 +9,13 @@
     
     <body>
         <img id="top" src="img/top.png">
-        <img id="left" src="img/left.png">
+        <img id="left" src="img/left.png" style='float:left;'>
+	<div id='banner' style='float:left;' ></div>
         <img id="right" src="img/right.png">
-        
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' /> 
         <script src="demoscript.js"></script>
+        <script>
+		$('#banner').load('banner.html')
+        </script>
     </body>
 </html>
