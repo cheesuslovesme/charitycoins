@@ -4,6 +4,8 @@ body {
     height: 1500px;
     border: 0;
     background-color: #236467;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #left {
@@ -16,6 +18,7 @@ body {
     width: 29%;
     height: 500px;
     background-color: #0b484b;
+    float: right;
 }
 
 #middle {
@@ -37,6 +40,7 @@ div {
     display: inline-table;
     margin-left: auto;
     margin-right: auto;
+    float: left;
 }
 
 a {
@@ -45,6 +49,8 @@ a {
     margin-left: 10%;
     margin-right: 10%;
     text-decoration: None;
+    background-color: white;
+    border-radius: 5px;
 }
 
 #logo {
@@ -57,4 +63,13 @@ a {
 
 #money {
     width: 100%;
+}
+
+#amount {
+    width: 29%;
+    
+}
+
+#donators {
+    width: 69%;
 }
